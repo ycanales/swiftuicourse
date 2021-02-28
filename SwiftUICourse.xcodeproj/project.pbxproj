@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF2EAA1B25EC39F80058AC99 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EAA1A25EC39F80058AC99 /* Sidebar.swift */; };
+		FF2EAA1C25EC39F80058AC99 /* Sidebar.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF2EAA1A25EC39F80058AC99 /* Sidebar.swift */; };
 		FF3C1AF625EB40C70045BB3D /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C1AF525EB40C70045BB3D /* CoursesView.swift */; };
 		FF3C1AF725EB40C70045BB3D /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C1AF525EB40C70045BB3D /* CoursesView.swift */; };
 		FF4566AA25EAC6F100612C29 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4566A925EAC6F100612C29 /* Tests_iOS.swift */; };
@@ -39,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF2EAA1A25EC39F80058AC99 /* Sidebar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Sidebar.swift; sourceTree = "<group>"; };
 		FF3C1AF525EB40C70045BB3D /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		FF45668E25EAC6EF00612C29 /* SwiftUICourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICourseApp.swift; sourceTree = "<group>"; };
 		FF45668F25EAC6EF00612C29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -108,6 +111,7 @@
 				FF45668F25EAC6EF00612C29 /* ContentView.swift */,
 				FF4566CF25EAD5BF00612C29 /* CourseRow.swift */,
 				FF3C1AF525EB40C70045BB3D /* CoursesView.swift */,
+				FF2EAA1A25EC39F80058AC99 /* Sidebar.swift */,
 				FF45669025EAC6F100612C29 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -316,6 +320,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2EAA1B25EC39F80058AC99 /* Sidebar.swift in Sources */,
 				FF4566B925EAC6F200612C29 /* ContentView.swift in Sources */,
 				FF4566D025EAD5BF00612C29 /* CourseRow.swift in Sources */,
 				FF4566B725EAC6F200612C29 /* SwiftUICourseApp.swift in Sources */,
@@ -327,6 +332,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FF2EAA1C25EC39F80058AC99 /* Sidebar.swift in Sources */,
 				FF4566BA25EAC6F200612C29 /* ContentView.swift in Sources */,
 				FF4566D125EAD5BF00612C29 /* CourseRow.swift in Sources */,
 				FF4566B825EAC6F200612C29 /* SwiftUICourseApp.swift in Sources */,
