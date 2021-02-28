@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FF3C1AF625EB40C70045BB3D /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C1AF525EB40C70045BB3D /* CoursesView.swift */; };
+		FF3C1AF725EB40C70045BB3D /* CoursesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF3C1AF525EB40C70045BB3D /* CoursesView.swift */; };
 		FF4566AA25EAC6F100612C29 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4566A925EAC6F100612C29 /* Tests_iOS.swift */; };
 		FF4566B525EAC6F200612C29 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF4566B425EAC6F200612C29 /* Tests_macOS.swift */; };
 		FF4566B725EAC6F200612C29 /* SwiftUICourseApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF45668E25EAC6EF00612C29 /* SwiftUICourseApp.swift */; };
@@ -37,6 +39,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FF3C1AF525EB40C70045BB3D /* CoursesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoursesView.swift; sourceTree = "<group>"; };
 		FF45668E25EAC6EF00612C29 /* SwiftUICourseApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftUICourseApp.swift; sourceTree = "<group>"; };
 		FF45668F25EAC6EF00612C29 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FF45669025EAC6F100612C29 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 				FF45668E25EAC6EF00612C29 /* SwiftUICourseApp.swift */,
 				FF45668F25EAC6EF00612C29 /* ContentView.swift */,
 				FF4566CF25EAD5BF00612C29 /* CourseRow.swift */,
+				FF3C1AF525EB40C70045BB3D /* CoursesView.swift */,
 				FF45669025EAC6F100612C29 /* Assets.xcassets */,
 			);
 			path = Shared;
@@ -235,7 +239,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1230;
-				LastUpgradeCheck = 1230;
+				LastUpgradeCheck = 1240;
 				TargetAttributes = {
 					FF45669425EAC6F100612C29 = {
 						CreatedOnToolsVersion = 12.3;
@@ -315,6 +319,7 @@
 				FF4566B925EAC6F200612C29 /* ContentView.swift in Sources */,
 				FF4566D025EAD5BF00612C29 /* CourseRow.swift in Sources */,
 				FF4566B725EAC6F200612C29 /* SwiftUICourseApp.swift in Sources */,
+				FF3C1AF625EB40C70045BB3D /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -325,6 +330,7 @@
 				FF4566BA25EAC6F200612C29 /* ContentView.swift in Sources */,
 				FF4566D125EAD5BF00612C29 /* CourseRow.swift in Sources */,
 				FF4566B825EAC6F200612C29 /* SwiftUICourseApp.swift in Sources */,
+				FF3C1AF725EB40C70045BB3D /* CoursesView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -520,6 +526,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
@@ -542,6 +549,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				ENABLE_PREVIEWS = YES;
